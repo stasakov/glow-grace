@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moj Blog | Šminka, Moda & Lifestyle</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fffaf8;
+      color: #333;
+    }
+    header {
+      background-color: #ffe5ec;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #fcd5ce;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .post {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .post h2 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #fcd5ce;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    .about, .contact {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background-color: #ffb3c1;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Moj Beauty, Fashion & Lifestyle Blog</h1>
+    <p>Dobrodošla u moj svet stila, šminke i svakodnevne inspiracije!</p>
+  </header>
+  <nav>
+    <a href="#">Početna</a>
+    <a href="#blog">Blog</a>
+    <a href="#about">O meni</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <div class="container">
+    <section id="blog">
+      <div class="post">
+        <h2>5 trikova za savršeni letnji makeup</h2>
+        <p>Topli dani zahtevaju laganiju šminku – pročitaj kako da tvoj look ostane svež ceo dan!</p>
+      </div>
+      <div class="post">
+        <h2>Moji omiljeni letnji outfiti</h2>
+        <p>Od haljina do lanenih kompleta – donosim ti inspiraciju za svaki dan u nedelji.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>O meni</h2>
+      <p>Zovem se [Tvoje ime], zaljubljenica u šminku, modu i sve što čini život lepšim. Ovaj blog sam pokrenula kako bih podelila savete, ideje i svoju ljubav prema stilu sa tobom!</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Kontaktiraj me</h2>
+      <form>
+        <input type="text" placeholder="Tvoje ime" required>
+        <input type="email" placeholder="Tvoj email" required>
+        <textarea rows="5" placeholder="Poruka"></textarea>
+        <button type="submit">Pošalji</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 Moj Blog | Prati me na Instagramu @tvojprofil</p>
+  </footer>
+</body>
+</html>
